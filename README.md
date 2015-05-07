@@ -32,4 +32,6 @@ I started by thinking of the different things that needed to be done in order to
 
 I then used Test Driven Development to move forward with my classes and end up with solid business logic.
 
-I decided to use Sinatra as a server for my app, as it is lightweight, quick to set-up and was perfectly adequate to deal with the simplicity of this particular app. I wanted to keep my controller as skinny as possible so ensured that all the logic that could do, sat in the model.
+I decided to use Sinatra as a server for my app, as it is lightweight, quick to set-up and was perfectly adequate to deal with the simplicity of this particular app. I wanted to keep my controller as skinny as possible so ensured that all business logic sat in the back end.
+
+I used a post request to send data from the user input to avoid having params in the URL.
