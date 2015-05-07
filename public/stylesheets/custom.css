@@ -1,0 +1,17 @@
+body {
+	text-align: center;
+}
+
+p {
+	padding-bottom: 1em;
+	margin: 10px;
+}
+
+.bold {
+	font-weight: bold;
+	color: red;
+}
+
+.outcome {
+	font-size: 3em;
+}
